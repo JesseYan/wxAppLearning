@@ -1,0 +1,32 @@
+{
+  "comment": "pages:设置页面路径, window: 设置默认页面的窗口表现, tabBar: 设置底部tab的表现, networkTimeout: 设置网络超时时间, debug: 设置是否开启debug模式",
+
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#343",
+    "navigationBarTitleText": "益达的小程序",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "page/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "page/logs/logs",
+      "text": "日志"
+    }]
+  },
+
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+
+  "debug": true
+}
